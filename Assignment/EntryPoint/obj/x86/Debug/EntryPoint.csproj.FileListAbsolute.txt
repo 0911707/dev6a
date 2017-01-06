@@ -74,6 +74,3 @@ C:\Users\Julian\Desktop\Development\Assignment\EntryPoint\bin\Windows\Debug\Shar
 C:\Users\Julian\Desktop\Development\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.RawInput.xml
 C:\Users\Julian\Desktop\Development\Assignment\EntryPoint\bin\Windows\Debug\SharpDX.Direct3D9.xml
 C:\Users\Julian\Desktop\Development\Assignment\EntryPoint\obj\x86\Debug\EntryPoint.csprojResolveAssemblyReference.cache
-C:\Users\Julian\Source\Repos\dev6a2\Assignment\EntryPoint\bin\Windows\Debug\EntryPoint.exe.config
-C:\Users\Julian\Source\Repos\dev6a2\Assignment\EntryPoint\obj\x86\Debug\EntryPoint.exe
-C:\Users\Julian\Source\Repos\dev6a2\Assignment\EntryPoint\obj\x86\Debug\EntryPoint.pdb
