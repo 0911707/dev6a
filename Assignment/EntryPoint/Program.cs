@@ -33,20 +33,6 @@ namespace EntryPoint{
             }
         }
 
-        private static int findShortest(List<float> distances, List<int> nodesIndex){
-            int index = -1;
-            float shortest = float.MaxValue;
-            for (int i = 0; i < distances.Count(); i++){
-                if (nodesIndex.Contains(i)){
-                    if (distances[i] < shortest){
-                        shortest = distances[i];
-                        index = i;
-                    }
-                }
-            }
-            return index;
-        }
-
         static void searchInOrder(ITree<Vector2> t, double radius, Vector2 currentHouse){
             if (!t.isEmpty){
                 double distance = Math.Sqrt((Math.Pow((currentHouse.X - t.value.X), 2) + Math.Pow((currentHouse.Y - t.value.Y), 2)));
@@ -317,7 +303,6 @@ namespace EntryPoint{
         }
 
         private static void merging(Tuple<Vector2, double>[] BuildingsWithDistance, int left, int mid, int right){
-            //List<Tuple<Vector2, double>> tempList = new List<Tuple<Vector2, double>>(50);
             Tuple<Vector2, double>[] tempList = new Tuple<Vector2, double>[50];
 
             int leftRange = (mid - 1);
